@@ -1,4 +1,4 @@
-module github.com/make-software/casper-go-sdk
+module github.com/giangnamnabka/casper-go-sdk
 
 go 1.19
 

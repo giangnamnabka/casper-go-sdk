@@ -1,9 +1,9 @@
 package casper
 
 import (
-	"github.com/make-software/casper-go-sdk/types"
-	"github.com/make-software/casper-go-sdk/types/clvalue"
-	"github.com/make-software/casper-go-sdk/types/clvalue/cltype"
+	"github.com/giangnamnabka/casper-go-sdk/types"
+	"github.com/giangnamnabka/casper-go-sdk/types/clvalue"
+	"github.com/giangnamnabka/casper-go-sdk/types/clvalue/cltype"
 )
 
 type (

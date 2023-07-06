@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/make-software/casper-go-sdk/types"
-	"github.com/make-software/casper-go-sdk/types/key"
-	"github.com/make-software/casper-go-sdk/types/keypair"
+	"github.com/giangnamnabka/casper-go-sdk/types"
+	"github.com/giangnamnabka/casper-go-sdk/types/key"
+	"github.com/giangnamnabka/casper-go-sdk/types/keypair"
 )
 
 const (

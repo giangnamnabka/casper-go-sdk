@@ -3,7 +3,7 @@ package types
 import (
 	"errors"
 
-	"github.com/make-software/casper-go-sdk/types/key"
+	"github.com/giangnamnabka/casper-go-sdk/types/key"
 )
 
 // NamedKey is a key in an Account or Contract.

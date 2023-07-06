@@ -1,8 +1,10 @@
 package types
 
 import (
-	"github.com/make-software/casper-go-sdk/types/key"
-	"github.com/make-software/casper-go-sdk/types/keypair"
+	"time"
+
+	"github.com/giangnamnabka/casper-go-sdk/types/key"
+	"github.com/giangnamnabka/casper-go-sdk/types/keypair"
 )
 
 // Block in the network
@@ -31,7 +33,7 @@ type BlockHeader struct {
 	ProtocolVersion string    `json:"protocol_version,omitempty"`
 	RandomBit       bool      `json:"random_bit"`
 	StateRootHash   key.Hash  `json:"state_root_hash"`
-	Timestamp       Timestamp `json:"timestamp"`
+	Timestamp       time.Time `json:"timestamp"`
 	EraEnd          *EraEnd   `json:"era_end"`
 }
 

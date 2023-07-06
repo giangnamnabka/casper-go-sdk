@@ -3,8 +3,8 @@ package rpc
 import (
 	"context"
 
-	"github.com/make-software/casper-go-sdk/types"
-	"github.com/make-software/casper-go-sdk/types/keypair"
+	"github.com/giangnamnabka/casper-go-sdk/types"
+	"github.com/giangnamnabka/casper-go-sdk/types/keypair"
 )
 
 var ApiVersion = "2.0"

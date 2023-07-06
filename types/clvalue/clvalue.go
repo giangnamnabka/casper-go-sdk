@@ -3,9 +3,9 @@ package clvalue
 import (
 	"errors"
 
-	"github.com/make-software/casper-go-sdk/types/clvalue/cltype"
-	"github.com/make-software/casper-go-sdk/types/key"
-	"github.com/make-software/casper-go-sdk/types/keypair"
+	"github.com/giangnamnabka/casper-go-sdk/types/clvalue/cltype"
+	"github.com/giangnamnabka/casper-go-sdk/types/key"
+	"github.com/giangnamnabka/casper-go-sdk/types/keypair"
 )
 
 type IValue interface {

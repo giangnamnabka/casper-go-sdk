@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"math/big"
 
-	"github.com/make-software/casper-go-sdk/types/clvalue/cltype"
+	"github.com/giangnamnabka/casper-go-sdk/types/clvalue/cltype"
 )
 
 type UInt512 struct {

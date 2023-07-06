@@ -6,7 +6,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/make-software/casper-go-sdk/types/key"
+	"github.com/giangnamnabka/casper-go-sdk/types/key"
 )
 
 // Transform is an enumeration of transformation types used in the execution of a `deploy`.

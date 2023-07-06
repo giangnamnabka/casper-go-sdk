@@ -1,7 +1,7 @@
 package types
 
 import (
-	"github.com/make-software/casper-go-sdk/types/keypair"
+	"github.com/giangnamnabka/casper-go-sdk/types/keypair"
 )
 
 // AuctionState is a data structure summarizing auction contract data.

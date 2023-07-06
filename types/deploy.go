@@ -5,10 +5,10 @@ import (
 
 	"golang.org/x/crypto/blake2b"
 
-	"github.com/make-software/casper-go-sdk/types/clvalue"
-	"github.com/make-software/casper-go-sdk/types/clvalue/cltype"
-	"github.com/make-software/casper-go-sdk/types/key"
-	"github.com/make-software/casper-go-sdk/types/keypair"
+	"github.com/giangnamnabka/casper-go-sdk/types/clvalue"
+	"github.com/giangnamnabka/casper-go-sdk/types/clvalue/cltype"
+	"github.com/giangnamnabka/casper-go-sdk/types/key"
+	"github.com/giangnamnabka/casper-go-sdk/types/keypair"
 )
 
 // Deploy is an item containing a smart contract along with the requester's signature(s).

@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/make-software/casper-go-sdk/casper"
+	"github.com/giangnamnabka/casper-go-sdk/casper"
 )
 
 func Test_Account_Constructor(t *testing.T) {

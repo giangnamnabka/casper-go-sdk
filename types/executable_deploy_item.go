@@ -6,8 +6,8 @@ import (
 	"math/big"
 	"strconv"
 
-	"github.com/make-software/casper-go-sdk/types/clvalue"
-	"github.com/make-software/casper-go-sdk/types/key"
+	"github.com/giangnamnabka/casper-go-sdk/types/clvalue"
+	"github.com/giangnamnabka/casper-go-sdk/types/key"
 )
 
 type ExecutableDeployItemType byte

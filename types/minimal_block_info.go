@@ -3,8 +3,8 @@ package types
 import (
 	"time"
 
-	"github.com/make-software/casper-go-sdk/types/key"
-	"github.com/make-software/casper-go-sdk/types/keypair"
+	"github.com/giangnamnabka/casper-go-sdk/types/key"
+	"github.com/giangnamnabka/casper-go-sdk/types/keypair"
 )
 
 type MinimalBlockInfo struct {

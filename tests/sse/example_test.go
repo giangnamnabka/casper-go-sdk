@@ -14,7 +14,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/make-software/casper-go-sdk/sse"
+	"github.com/giangnamnabka/casper-go-sdk/sse"
 )
 
 func Test_Simple_Example(t *testing.T) {

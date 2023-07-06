@@ -3,7 +3,7 @@ package clvalue
 import (
 	"bytes"
 
-	"github.com/make-software/casper-go-sdk/types/clvalue/cltype"
+	"github.com/giangnamnabka/casper-go-sdk/types/clvalue/cltype"
 )
 
 type String string

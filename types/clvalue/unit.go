@@ -5,7 +5,7 @@ import (
 	"errors"
 	"go/types"
 
-	"github.com/make-software/casper-go-sdk/types/clvalue/cltype"
+	"github.com/giangnamnabka/casper-go-sdk/types/clvalue/cltype"
 )
 
 var ErrUnitByteNotEmpty = errors.New("byte source for unit type should be empty")

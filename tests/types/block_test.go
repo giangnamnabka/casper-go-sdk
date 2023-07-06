@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/make-software/casper-go-sdk/types"
+	"github.com/giangnamnabka/casper-go-sdk/types"
 )
 
 func Test_Block_MarshalUnmarshal_ShouldReturnSameResult(t *testing.T) {

@@ -1,13 +1,13 @@
 # Casper Go SDK
-[![GitHub version](https://badge.fury.io/gh/make-software%2Fcasper-go-sdk.svg)](https://badge.fury.io/gh/make-software%2Fcasper-go-sdk)
-[![Quality check](https://github.com/make-software/casper-go-sdk/actions/workflows/quality-check.yml/badge.svg)](https://github.com/make-software/casper-go-sdk/actions/workflows/quality-check.yml)
+[![GitHub version](https://badge.fury.io/gh/giangnamnabka%2Fcasper-go-sdk.svg)](https://badge.fury.io/gh/giangnamnabka%2Fcasper-go-sdk)
+[![Quality check](https://github.com/giangnamnabka/casper-go-sdk/actions/workflows/quality-check.yml/badge.svg)](https://github.com/giangnamnabka/casper-go-sdk/actions/workflows/quality-check.yml)
 
 The Casper Go SDK provides a convenient way to interact with the Casper Network using Go.
 
 ## Get started
 
 ```shell
-go get github.com/make-software/casper-go-sdk
+go get github.com/giangnamnabka/casper-go-sdk
 ```
 
 ## Base usage
@@ -26,7 +26,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/make-software/casper-go-sdk/casper"
+	"github.com/giangnamnabka/casper-go-sdk/casper"
 )
 
 func main() {
@@ -54,7 +54,7 @@ import (
 	"context"
 	"log"
 
-	"github.com/make-software/casper-go-sdk/sse"
+	"github.com/giangnamnabka/casper-go-sdk/sse"
 )
 
 func main() {
@@ -95,8 +95,8 @@ import (
 	"math/big"
 	"net/http"
 
-	"github.com/make-software/casper-go-sdk/casper"
-	"github.com/make-software/casper-go-sdk/types/clvalue"
+	"github.com/giangnamnabka/casper-go-sdk/casper"
+	"github.com/giangnamnabka/casper-go-sdk/types/clvalue"
 )
 
 func main() {
@@ -179,7 +179,7 @@ go test ./...
 
 We hope you find this SDK to be a useful tool for interacting with the Casper Network using Go. We've strived to make it as intuitive and user-friendly as possible, but we understand that there's always room for improvement.
 
-Should you have any questions, issues, or suggestions, please don't hesitate to open an issue in our [GitHub repository](https://github.com/make-software/casper-go-sdk/issues). If you are interested in contributing to the Casper Go SDK, we would be thrilled to welcome you to our community. Please check out the [CONTRIBUTING.md](CONTRIBUTING.md) guide for more information.
+Should you have any questions, issues, or suggestions, please don't hesitate to open an issue in our [GitHub repository](https://github.com/giangnamnabka/casper-go-sdk/issues). If you are interested in contributing to the Casper Go SDK, we would be thrilled to welcome you to our community. Please check out the [CONTRIBUTING.md](CONTRIBUTING.md) guide for more information.
 
 Remember, the power of blockchain networks is in their communities. Every question you ask, issue you open, or contribution you make, helps to improve the Casper Go SDK and benefits the entire Casper ecosystem.
 

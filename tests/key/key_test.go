@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/make-software/casper-go-sdk/casper"
+	"github.com/giangnamnabka/casper-go-sdk/casper"
 )
 
 func Test_Key_Constructor_fromString(t *testing.T) {

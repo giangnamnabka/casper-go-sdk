@@ -1,6 +1,6 @@
 package types
 
-import "github.com/make-software/casper-go-sdk/types/key"
+import "github.com/giangnamnabka/casper-go-sdk/types/key"
 
 // Transfer represents a transfer from one purse to another
 type Transfer struct {

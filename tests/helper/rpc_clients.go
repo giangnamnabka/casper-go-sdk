@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/make-software/casper-go-sdk/rpc"
+	"github.com/giangnamnabka/casper-go-sdk/rpc"
 )
 
 var delayedTestNetHandlerState rpc.Handler

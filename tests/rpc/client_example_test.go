@@ -13,9 +13,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/make-software/casper-go-sdk/casper"
-	"github.com/make-software/casper-go-sdk/rpc"
-	"github.com/make-software/casper-go-sdk/tests/helper"
+	"github.com/giangnamnabka/casper-go-sdk/casper"
+	"github.com/giangnamnabka/casper-go-sdk/rpc"
+	"github.com/giangnamnabka/casper-go-sdk/tests/helper"
 )
 
 func Test_DefaultClient_GetDeploy_Example(t *testing.T) {

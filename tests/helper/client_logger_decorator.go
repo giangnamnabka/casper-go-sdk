@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"log"
 
-	"github.com/make-software/casper-go-sdk/rpc"
+	"github.com/giangnamnabka/casper-go-sdk/rpc"
 )
 
 type clientLoggerDecorator struct {

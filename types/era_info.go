@@ -1,8 +1,8 @@
 package types
 
 import (
-	"github.com/make-software/casper-go-sdk/types/clvalue"
-	"github.com/make-software/casper-go-sdk/types/keypair"
+	"github.com/giangnamnabka/casper-go-sdk/types/clvalue"
+	"github.com/giangnamnabka/casper-go-sdk/types/keypair"
 )
 
 // EraInfo stores an auction metadata. Intended to be recorded at each era.

@@ -5,8 +5,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/make-software/casper-go-sdk/types/clvalue"
-	"github.com/make-software/casper-go-sdk/types/clvalue/cltype"
+	"github.com/giangnamnabka/casper-go-sdk/types/clvalue"
+	"github.com/giangnamnabka/casper-go-sdk/types/clvalue/cltype"
 )
 
 var ErrArgumentNotFound = errors.New("argument is not found")
