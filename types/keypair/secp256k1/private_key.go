@@ -16,6 +16,10 @@ func (v PrivateKey) PublicKeyBytes() []byte {
 	return v.key.PubKey().SerializeCompressed()
 }
 
+func (v PrivateKey) PrivateKeyBytes() []byte {
+	return v.key.Serialize()
+}
+
 func (v PrivateKey) Sign(mes []byte) ([]byte, error) {
 	hash := sha256.Sum256(mes)
 	sig, err := v.key.Sign(hash[:])

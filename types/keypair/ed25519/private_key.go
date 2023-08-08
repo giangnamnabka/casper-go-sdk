@@ -17,6 +17,10 @@ func (k PrivateKey) PublicKeyBytes() []byte {
 	return k.key.Public().(ed25519.PublicKey)
 }
 
+func (k PrivateKey) PrivateKeyBytes() []byte {
+	return k.key
+}
+
 func (k PrivateKey) Sign(mes []byte) ([]byte, error) {
 	return ed25519.Sign(k.key, mes), nil
 }
