@@ -67,11 +67,11 @@ func (t *Transform) IsWriteUnbonding() bool {
 }
 
 func (t *Transform) ParseAsWriteUnbonding() ([]UnbondingPurse, error) {
-	type RawWriteWithdrawals struct {
+	type RawWriteUnbonding struct {
 		WriteUnbonding []UnbondingPurse `json:"WriteUnbonding"`
 	}
 
-	jsonRes := RawWriteWithdrawals{}
+	jsonRes := RawWriteUnbonding{}
 	if err := json.Unmarshal(*t, &jsonRes); err != nil {
 		return nil, err
 	}
