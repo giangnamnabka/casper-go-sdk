@@ -66,7 +66,7 @@ func (t *Transform) IsWriteUnbonding() bool {
 	return strings.Contains(string(*t), "WriteUnbonding")
 }
 
-func (t *Transform) ParseAsWriteWithdraws() ([]UnbondingPurse, error) {
+func (t *Transform) ParseAsWriteUnbonding() ([]UnbondingPurse, error) {
 	type RawWriteWithdrawals struct {
 		WriteUnbonding []UnbondingPurse `json:"WriteUnbonding"`
 	}
