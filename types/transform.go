@@ -62,6 +62,23 @@ func (t *Transform) ParseAsWriteTransfer() (*WriteTransfer, error) {
 	return &jsonRes.WriteTransfer, nil
 }
 
+func (t *Transform) IsWriteUnbonding() bool {
+	return strings.Contains(string(*t), "WriteUnbonding")
+}
+
+func (t *Transform) ParseAsWriteWithdraws() ([]UnbondingPurse, error) {
+	type RawWriteWithdrawals struct {
+		WriteUnbonding []UnbondingPurse `json:"WriteUnbonding"`
+	}
+
+	jsonRes := RawWriteWithdrawals{}
+	if err := json.Unmarshal(*t, &jsonRes); err != nil {
+		return nil, err
+	}
+
+	return jsonRes.WriteUnbonding, nil
+}
+
 func (t *Transform) IsWriteContract() bool {
 	return bytes.Equal(*t, []byte("\"WriteContract\""))
 }
